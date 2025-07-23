@@ -1,0 +1,63 @@
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, black, black, rgb(12, 12, 12)) !important;
+}
+
+.nav{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nome{
+    color: #8019a0;
+    text-shadow: 0 0 5px #8019a0, 0 0 10px #8019a0;
+}
+
+#sla{
+    color: #8019a0;
+    box-shadow: 0 0 5px #8019a0, 0 0 10px #8019a0;
+}
+
+.card-body{
+    height: 250px;
+}
+
+#sobre-mim{
+    align-self: center;
+    justify-self: center;
+    height: 90vh;
+}
+
+#habilidades{
+    width: 100%;
+    margin: 0 0 186.5px 0!important; 
+    justify-self: center;
+}
+
+#habilidades-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 75%;
+    justify-items: center;
+    align-items: center;
+}
+
+#navbar{
+    height: 50px;
+    align-items: center;
+}
+
+.btn{
+    background-color: #8019a0 !important;
+    border: #8019a0 !important;
+    box-shadow: 0 0 5px #8019a0, 0 0 10px #8019a0 !important;
+}
+
+.btn:hover{
+    background-color: #490f5a !important;
+    border: #490f5a !important;
+    box-shadow: 0 0 5px #490f5a, 0 0 10px #490f5a !important;
+}
